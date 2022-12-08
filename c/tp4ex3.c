@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main(){
+/*void main(){
     char a[20],b[20],c[40];
     int x,y,i,j;
     printf("donner Ch1");
@@ -16,8 +16,8 @@ void main(){
         c[j]=b[i];
     }
     printf("%s",c);
-}
-/*void main(){
+}*/
+void main(){
     char ch1[40],ch2[40],ch3[20],ch4[20];
     int x,y,z;
     puts("donner ch1");
@@ -29,4 +29,4 @@ void main(){
     strncpy(ch3,ch1,x);
     strncpy(ch4,ch2,y);
     puts(strcat(ch3,ch4));
-}*/
+}
