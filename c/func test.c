@@ -2,18 +2,18 @@
 #include<string.h>
 int saisie();
 void charge(int T[],int n);
-void search(int T[],int n,int a,int U[]);
+void search(int T[],int n,int a);
 void inver(int T[],int n);
 void insert(int T[],int pos);
 
 int main(void){
-    int pos,b,T[50],U[50],a;
+    int pos,b,T[50],a;
     printf("donner la taille n du tableau: ");
     a=saisie(); 
     charge(T,a);
     printf("donner l'entier a chercher: ");
     scanf("%d",&b);
-    search(T,a,b,U);
+    search(T,a,b);
     printf("\ndonner la position a modifier: ");
     do{
         scanf("%d",&pos);
@@ -42,8 +42,8 @@ void charge(int T[],int n){
         scanf("%d",&T[i]);
     }
 }
-void search(int T[],int n,int a,int U[]){
-    int i,k,x;
+void search(int T[],int n,int a){
+    int i,k=0,x,U[50];
     for(i=0;i<n;i++){
         if(a<T[i]){
             U[k]=T[i];
