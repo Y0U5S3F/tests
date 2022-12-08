@@ -28,7 +28,7 @@ int main(void){
     j=0;
     k=0;
     for(i=0;i<(n*2);i++){
-        if(a[j]<b[k] && j<n){
+        if(a[j]<b[k] && j<n && k<n){
             c[i]=a[j];
             j++;
         }
