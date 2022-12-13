@@ -1,5 +1,13 @@
 fn main(){
-    for _i in 0..5{
-        println!("this is a loop");
+    for i in 0..10 {
+        if i == 5 {
+            continue;
+        }
+        println!("{}",i);
+    
+        if i == 7 {
+            break;
+        }
     }
+    
 }
