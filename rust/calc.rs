@@ -1,6 +1,5 @@
 use std::io;
 use std::process;
-#[allow(unused_mut)]
 
 fn main() {
 
@@ -22,7 +21,7 @@ fn main() {
     let b: i32 = b.trim().parse().expect("Failed to parse input");
     let op: char = op.trim().parse().expect("Failed to parse input");
 
-    let mut x:i32;
+    let x:i32;
 
     match op {
             '+' => x=a+b,
