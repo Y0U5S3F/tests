@@ -3,12 +3,10 @@ use std::process;
 
 fn main() {
 
-    // Declare a variable to store the user input
     let mut a = String::new();
     let mut b = String::new();
     let mut op = String::new();
 
-    // Read the user input
     eprint!("donner a: ");
     io::stdin().read_line(&mut a).expect("Failed to read line");
     eprint!("donner b: ");
@@ -16,12 +14,11 @@ fn main() {
     eprint!("donner op: ");
     io::stdin().read_line(&mut op).expect("Failed to read line");
 
-    // Convert the input to a character
-    let a: i32 = a.trim().parse().expect("Failed to parse input");
-    let b: i32 = b.trim().parse().expect("Failed to parse input");
-    let op: char = op.trim().parse().expect("Failed to parse input");
+    let a:i32 = a.trim().parse().expect("Failed to parse input");
+    let b:i32 = b.trim().parse().expect("Failed to parse input");
+    let op:char = op.trim().parse().expect("Failed to parse input");
 
-    let x:i32;
+    let x:i64;
 
     match op {
             '+' => x=a+b,
