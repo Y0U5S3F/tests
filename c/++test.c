@@ -2,7 +2,7 @@
 #include<math.h>
 int a[10],b[10],c[10],d[10],f[40];
 int i,j,k,n;
-void main(){
+int main(){
     printf("donner n\n");
     scanf("%i",&n);
     for(i=0;i<n;i++){
@@ -40,6 +40,7 @@ void main(){
     for(i=0;i<(4*n);i++){
         printf("%d ",f[i]);
     }
+    return 0;
 }
 /*long double h;
 const int A=2,B=2;
