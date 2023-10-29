@@ -7,7 +7,7 @@
 </head>
 <body>
     <!--commentaire-->
-    <h1>This is a H1</h1>
+    <h1 id="aac">This is a H1</h1>
     <h2>this is a H2</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </br> Sapiente earum provident eaque. Veritatis aut saepe ipsa tempora qui numquam ipsam.</p>
     <label>this is an ol</label>
@@ -65,6 +65,36 @@
           </tr>
         </tfoot>
       </table>
-      <img src="" alt="">
+      <br>
+      <a href="https://www.youtube.com/watch?v=meqV86ExZcU">
+        <img width="200" src="./exple.jpeg"  alt="flower">
+      </a><br>
+      <a href="https://www.youtube.com/watch?v=meqV86ExZcU">a url/mailto/adress with a text</a><br>
+      <a href="#aac">links to H1</a><br><br>
+      <form action="destination.html" method="get">
+        <input type="text" value="nametext">
+        <br>
+        <input type="tel" name="tel" id="tel1" placeholder="22-222-222" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}" required><br>
+        <input type="submit"><br>
+        <select name="towns" id="ttn" required>
+            <option value="select" disabled selected>choose a city</option>
+            <option value="tounes">tounes</option>
+            <option value="bnzart">benzart</option>
+        </select><br>
+        <map name="map1">
+            <area shape="circle" coords="200,100,50" href="https://www.youtube.com/watch?v=meqV86ExZcU" alt="billard">
+            <area shape="rect" coords="100,50,200,100" href="https://www.youtube.com/watch?v=meqV86ExZcF" alt="bil2">
+        </map>
+        <img width="400" height="200" src="./exple.jpeg" alt="fleure" usemap="#map1"><br>
+        <audio loop controls>
+            <source src="mp31.mp3" type="audio/mp3">
+            <source src="midi1.mid" type="audio/midi">
+            this is not available
+        </audio><br>
+        <video preload="auto" onloadstart="this.volume=0.2" controls>
+            <source src="fitgitl.mp4" type="video/mp4">
+            this video is not available
+        </video>
+      </form>
 </body>
 </html>
