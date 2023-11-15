@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestMetiers",
+            "request": "launch",
+            "mainClass": "tp52.TestMetiers",
+            "projectName": "tests_b355c69"
+        },
+        {
+            "type": "java",
+            "name": "TestMetiers",
+            "request": "launch",
+            "mainClass": "java.tp52.TestMetiers",
+            "projectName": "tests_b355c69"
+        },
+        {
+            "type": "java",
+            "name": "her",
+            "request": "launch",
+            "mainClass": "tp5.her",
+            "projectName": "tests_b355c69"
+        },
+        {
+            "type": "java",
+            "name": "her",
+            "request": "launch",
+            "mainClass": "java.tp5.her",
+            "projectName": "tests_b355c69"
+        }
+    ]
+}
