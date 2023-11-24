@@ -9,5 +9,8 @@ public class Personne{
         this.prenom=prenom;
     }
 
+    public void identite(){
+        System.out.println("nom : "+this.nom+" prenom : "+this.prenom);
+    }
     
 }

@@ -1,2 +1,5 @@
-package tp72;public class Critere {
+package tp72;
+
+public abstract class Critere {
+    boolean estSatisfaitPar(Voiture v);
 }
