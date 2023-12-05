@@ -12,6 +12,16 @@ public class ListVoiture {
     public List<Voiture> getVoitures() {
         return this.voitures;
     }
+
+    public void remove(Voiture v){
+        this.voitures.remove(v);
+    }
+    public void add(Voiture v){
+        this.voitures.add(v);
+    }
+    public boolean contains(Voiture v){
+        return this.voitures.contains(v);
+    }
     public void setVoitures(List<Voiture> voitures) {
         this.voitures=voitures;
     }
@@ -28,9 +38,6 @@ public class ListVoiture {
         } else {
             throw new VoitureException("Non Existant");
         }
-    }
-    public Iterator<Voiture> iterateur(){
-        return voitures.iterator();
     }
     public int size(){
         return voitures.size();

@@ -33,7 +33,4 @@ public class Voiture{
     public boolean equals(Voiture a,Voiture b) {
         return a.matr == b.matr && b.marque.equals(a.marque);
     }
-    public String toString(){
-//à completer
-    }
 }
